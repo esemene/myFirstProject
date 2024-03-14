@@ -1,0 +1,45 @@
+*{
+    font-family: fantasy;
+}                  
+/* Element selector */
+h1{
+    font-size: 50px;
+    font-weight: 50%;
+    background-color: antiquewhite;
+    color: red;
+
+}
+
+h2{
+    font-size: medium;
+    color: green;
+    background-color: aquamarine;
+    color: brown;
+}
+/* ID SELECTOR */
+
+#ENE{
+    background-color: red;
+    color: white;
+}
+
+/* Descendant selector */
+tr .apple #ENE{
+    background-color: blue;
+    color: beige;
+}
+
+#orange .apple{
+    background-color: red;
+    color: white;
+}
+.apple #orange{
+    background-color: yellow;
+    color: white;
+}
+
+/* GROUP SELECTOR*/
+h5, .newclass,ol #egg{
+    background-color: black;
+    color: white;
+}
